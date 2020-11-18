@@ -3,6 +3,8 @@ Annoyer
 
 Send unlimited spam sms messages to any phone number that starts with +98.
 
+![Smashing Phone](https://m0.joe.co.uk/wp-content/uploads/2016/04/02120051/iphonesmash.gif)
+
 ## 🔧 Requeriments
 - [Python](https://www.python.org/)
 - [Selenium](https://requests.readthedocs.io/)
