@@ -38,6 +38,15 @@ browser = webdriver.Chrome(options=chromeOptions)
 
 while i < n:
 
+    # Ghafari Diet
+    try:
+        browser.get('https://www.ghafaridiet.com/fa/main.html')
+        browser.find_element_by_xpath('//*[@id="mobile"]').send_keys(number)
+        browser.find_element_by_xpath('/html/body/footer/div[1]/div/div/div[1]/div/div[3]/form/button').click()
+        print('Ghafari Diet [✔]')
+    except Exception:
+        print('Ghafari Diet [❌]')
+      
     # Anten
     try:
         browser.get('http://anten.ir')
